@@ -1,0 +1,120 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background: #82f2fb;
+}
+
+
+.wrapper {
+  position: relative;
+  padding: 40px;
+  background: #00ffd0;
+  box-shadow: -1px 0px 96px 0px #005f66;
+  width: 50%;
+  height: 25rem;
+  border-radius: 5px;
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: #000;
+}
+
+.input-group {
+  position: relative;
+  margin: 4px 0;
+  border-bottom: 2px solid #fff;
+}
+
+
+.input-group label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  color: #000;
+  transition: .5s;
+}
+
+.input-group input {
+  width: 320px;
+  height: 40px;
+  font-size: 16px;
+  color: #000;
+  border: none;
+  outline: none;
+  padding: 0 15px;
+  background: transparent;
+}
+
+.input-group input:focus~label,
+.input-group input:valid~label {
+  color: #00ffd0;
+  display: none !important;
+}
+
+.remember {
+  margin: 15px 5px;
+}
+
+.remember label {
+  font-size: 14px;
+  color: #000;
+}
+
+.remember label input {
+  accent-color: #0ef;
+}
+
+button {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  background: #0ef;
+  box-shadow: 0 0 0px 1px #063134;
+  font-size: 16px;
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+}
+
+button:hover{
+ box-shadow: 0 0 4px 2px #063134;
+}
+
+.signin-link {
+  font-size: 16px;
+  text-align: center;
+  margin: 15px 0;
+
+}
+
+.signin-link p {
+  color: #000;
+  margin: 4px 0;
+}
+
+.signin-link p a {
+  text-decoration: none;
+  color: #002a91;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.signin-link p a:hover {
+  text-decoration: underline;
+}
